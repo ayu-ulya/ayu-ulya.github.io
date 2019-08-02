@@ -1,0 +1,254 @@
+/*Start Font*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*End Font*/
+
+/*Start Body*/
+/*Selector*/
+body {
+    /*Property*/
+    background-color: antiquewhite;
+    color: #24292e; 
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 5;
+}
+/*End Body*/
+
+/*Start Debug*/
+.bg-gray{
+    background-color: rgb(225, 225, 233);
+}
+
+.bg-white{
+    background-color: whitesmoke;
+}
+
+.bg-orange{
+    background-color:rgba(253, 139, 94, 0.829);
+}
+/*End Debug*/
+
+/* Start Container */
+.container{
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%; 
+}
+/* End Container */
+
+/* Start Logo */
+.logo{
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Menu Primer */
+.menu-primer ul {
+   background-color: rgb(240, 237, 232);
+   border-radius: 30px;
+   box-shadow: 
+        0   3px    5px  -1px rgb(0, 0, 0, .2),
+        0   6px    10px  0 rgb(0, 0, 0, .14),
+        0   1px    18px  0 rgb(0, 0, 0, .12),
+}
+
+.menu-primer li{
+    border-right: 5px solid #d1d5da;
+    display: inline-block;  
+}
+
+.menu-primer a{
+    color: black;
+    font-size: 13px; 
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-justify: auto;
+}
+/* End Menu Primer */
+
+/*Start Main*/
+.main-home-one{
+float: left;
+width: 49.5%;
+}
+
+.main-home-two{
+float: right;
+width: 49.5%;
+}
+
+.main-home-one .box-isi
+{
+    height: 162px;
+}
+.main-home-two .box-isi {
+    height: 370px;
+}
+/*End Main*/
+
+/*Start Box*/
+.box-heading{
+    background-color: #f6f8fa;
+    border: 1px solid #d1d5da;
+    border-radius: 3px 3px 0 0; 
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0; 
+}
+
+.box-isi{
+    background-color: #f6f8fa;
+    border: 1px solid #eaecef;
+    border-top: 0; 
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+/*End Box*/
+
+/*Start Menu Sekunder*/
+.menu-sekunder{
+    background-color:rgba(253, 139, 94, 0.829);
+    border-bottom: 1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    overflow: auto;
+    padding:10px 0;  
+}
+
+.menu-sekunder h4{
+    font-size: 14px;
+    margin: 0 auto; 
+    text-transform: uppercase;
+}
+
+.menu-sekunder ul{
+    padding: 0;  
+}
+
+.menu-sekunder li{
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder li p {
+    font-size: 15px;
+}
+
+.menu-sekunder li img{
+    vertical-align: middle;
+    padding:5px 0; 
+}
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three {
+float: left; 
+}
+
+.menu-sekunder-one{
+    width: 40%;
+}
+
+.menu-sekunder-two,
+.menu-sekunder-three {
+    width: 30%;
+}
+/*End Menu Sekunder*/
+
+/*-->Start Slide Show<--*/
+    * {
+        box-sizing: border-box;
+    }
+    
+    /* Position the image container (needed to position the left and right arrows) */
+    .container {
+        position: relative;
+    }
+    
+    /* Hide the images by default */
+    .mySlides {
+        display: none;
+    }
+    
+    /* Add a pointer when hovering over the thumbnail images */
+    .cursor {
+        cursor: pointer;
+    }
+    
+    /* Next & previous buttons */
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        width: auto;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+    
+    /* Container for image text */
+    .caption-container {
+        text-align: center;
+        background-color: #222;
+        padding: 2px 16px;
+        color: white;
+    }
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    /* Six columns side by side */
+    .column {
+        float: left;
+        width: 16.66%;
+    }
+    
+    /* Add a transparency effect for thumnbail images */
+    .demo {
+        opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+        opacity: 1;
+    }
+  /*-->End Slide Show<--*/
